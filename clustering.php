@@ -161,7 +161,7 @@ echo "จัดทำโดย สุรชาติ  บัวชุม (2010) 
 
 
 //นำข้อมูลผลลัพธ์แบบ Array ที่ได้ไปแสดงผลแบบมีตารางและมีสี
-//นำฟังก์ชั่นมาจาก php.net มาปรับใช้
+//นำฟังก์ชันมาจาก php.net มาปรับใช้
 function print_nice($elem,$max_level=10,$chk=1,$print_nice_stack=array()){ 
     if(is_array($elem) || is_object($elem)){ 
         $max_level--; 
@@ -207,8 +207,8 @@ function print_nice($elem,$max_level=10,$chk=1,$print_nice_stack=array()){
     } 
 } 
 
-// #### นำฟังก์ชั่นฟรี มาจาก http://code.blip.pt ####
-// ใช้ฟังชั่นต้นแบบเขียนโดย  Jose Fonseca (josefonseca@blip.pt)  
+// #### นำฟังก์ชันฟรี มาจาก http://code.blip.pt ####
+// โดย Jose Fonseca (josefonseca@blip.pt)  
 function kmeans($data, $k)
 {
         $cPositions = assign_initial_positions($data, $k);
